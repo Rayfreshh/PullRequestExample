@@ -13,4 +13,5 @@ class Dog:
 if __name__ == "__main__":
     my_dog = Dog("Buddy", 3)
     print(my_dog.bark())
+    print(my_dog.get_info()) #fixed the closed parentheses
     print(my_dog.get_info())
