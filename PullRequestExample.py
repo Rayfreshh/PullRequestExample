@@ -14,6 +14,7 @@ if __name__ == "__main__":
     my_dog = Dog("Buddy", 3)
     print(my_dog.bark())
     print(my_dog.get_info()) #fixed the closed parentheses
+<<<<<<< HEAD
     
 class Cat:
     def __init__(self, name, color):
@@ -31,3 +32,6 @@ if __name__ == "__main__":
     my_cat = Cat("Whiskers", "black")
     print(my_cat.meow())
     print(my_cat.get_info())
+=======
+    print(my_dog.get_info())
+>>>>>>> origin/main
